@@ -6,7 +6,7 @@ import os
 API_KEY = os.environ['API_KEY']
 VOICE_ID = 'XrExE9yKIg1WjnnlVkGX'
 API_URL = f'https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}'
-GITHUB_AUDIO_BASE_URL = 'https://raw.githubusercontent.com/melvinsalvador/BulkElevenLabsCalls/main/'
+GITHUB_AUDIO_BASE_URL = 'https://cdn.jsdelivr.net/gh/melvinsalvador/BulkElevenLabsCalls/'
 
 def text_to_speech(input_text):
     headers = {
